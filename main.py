@@ -251,7 +251,7 @@ def tester(obstacle_Timer):
 
 pygame.mixer.pre_init(44100, 16, 2, 4096)
 pygame.init()
-screen = pygame.display.set_mode((640, 360), flags = pygame.SCALED)
+screen = pygame.display.set_mode((640, 360))
 pygame.display.set_caption('PyJumper')
 clock = pygame.time.Clock()
 font = pygame.font.Font('font/Pixeltype.ttf', 50)
@@ -372,8 +372,8 @@ async def main():
 
 if __name__ == "__main__":
 
-    pygame.init()
-    screen = pygame.display.set_mode((640, 360))
-    clock = pygame.time.Clock()
+    # pygame.init()
+    # screen = pygame.display.set_mode((640, 360))
+    # clock = pygame.time.Clock()
     homePage(screen, clock)
     asyncio.run(main())
