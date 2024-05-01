@@ -2,28 +2,27 @@ from re import T
 import pygame, random, asyncio, time
 import logging
 from sys import exit
-import boto3
-# import botocore
+# import boto3
 # from botocore.exceptions import ClientError
 
 logging.basicConfig(filename='game.txt', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-AWS_ACCESS_KEY = "AKIAV3N7ULSXXGLBNPCR"
-AWS_SECRET_KEY = "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"
-AWS_S3_BUCKET_NAME = "pygame2"
-AWS_REGION = "us-east-1"
-LOCAL_FILE = "game.txt"
+# AWS_ACCESS_KEY = "AKIAV3N7ULSXXGLBNPCR"
+# AWS_SECRET_KEY = "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"
+# AWS_S3_BUCKET_NAME = "pygame2"
+# AWS_REGION = "us-east-1"
+# LOCAL_FILE = "game.txt"
 
-def upload_logs_to_s3():
-    s3_client = boto3.client(
-        service_name='s3',
-        region_name=AWS_REGION,
-        aws_access_key_id=AWS_ACCESS_KEY,
-        aws_secret_access_key=AWS_SECRET_KEY
-    )
-    response = s3_client.upload_file(LOCAL_FILE, AWS_S3_BUCKET_NAME, LOCAL_FILE)
-    print(f'upload file response : {response}')
+# def upload_logs_to_s3():
+#     s3_client = boto3.client(
+#         service_name='s3',
+#         region_name=AWS_REGION,
+#         aws_access_key_id=AWS_ACCESS_KEY,
+#         aws_secret_access_key=AWS_SECRET_KEY
+#     )
+#     response = s3_client.upload_file(LOCAL_FILE, AWS_S3_BUCKET_NAME, LOCAL_FILE)
+#     print(f'upload file response : {response}')
 
 
 class Player(pygame.sprite.Sprite):
@@ -203,7 +202,7 @@ def homePage(screen, clock):
                                 show_high_scores = True
                             elif button_name == 'exit':
                                 logging.shutdown()
-                                upload_logs_to_s3()
+                                # upload_logs_to_s3()
                                 pygame.quit()
                                 exit()
                             elif button_name == 'music_toggle':
@@ -252,7 +251,7 @@ def tester(obstacle_Timer):
 
 pygame.mixer.pre_init(44100, 16, 2, 4096)
 pygame.init()
-screen = pygame.display.set_mode((640, 360), flags=pygame.SCALED)
+screen = pygame.display.set_mode((640, 360), flags = pygame.SCALED)
 pygame.display.set_caption('PyJumper')
 clock = pygame.time.Clock()
 font = pygame.font.Font('font/Pixeltype.ttf', 50)
@@ -304,7 +303,7 @@ async def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 logging.shutdown()
-                upload_logs_to_s3()
+                #upload_logs_to_s3()
                 pygame.quit()
                 exit()
 
