@@ -1,0 +1,317 @@
+2024-04-30 18:08:57,784 - DEBUG - Using proactor: IocpProactor
+2024-04-30 18:35:57,419 - DEBUG - Using proactor: IocpProactor
+2024-04-30 18:45:14,066 - DEBUG - Using proactor: IocpProactor
+2024-04-30 18:51:39,207 - DEBUG - Using proactor: IocpProactor
+2024-04-30 18:53:43,395 - DEBUG - Using proactor: IocpProactor
+2024-04-30 19:13:55,897 - DEBUG - Using proactor: IocpProactor
+2024-04-30 19:17:33,267 - DEBUG - Using proactor: IocpProactor
+2024-04-30 19:25:51,746 - DEBUG - Using proactor: IocpProactor
+2024-04-30 19:25:57,508 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-04-30 19:25:57,511 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-04-30 19:25:57,522 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-04-30 19:25:57,525 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-04-30 19:25:57,525 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-04-30 19:25:57,526 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-04-30 19:25:57,527 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-04-30 19:25:57,531 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-04-30 19:25:57,531 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-04-30 19:25:57,531 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-04-30 19:25:57,531 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-04-30 19:25:57,537 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\endpoints.json
+2024-04-30 19:25:57,574 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-04-30 19:25:57,574 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000011A49FCEDD0>
+2024-04-30 19:25:57,695 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-04-30 19:25:57,810 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-04-30 19:25:57,818 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\partitions.json
+2024-04-30 19:25:57,821 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000011A49F15750>
+2024-04-30 19:25:57,821 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000011A4A068040>
+2024-04-30 19:25:57,872 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000011A49F15510>
+2024-04-30 19:25:57,873 - DEBUG - Looking for endpoint for s3 via: environment_service
+2024-04-30 19:25:57,873 - DEBUG - Looking for endpoint for s3 via: environment_global
+2024-04-30 19:25:57,873 - DEBUG - Looking for endpoint for s3 via: config_service
+2024-04-30 19:25:57,873 - DEBUG - Looking for endpoint for s3 via: config_global
+2024-04-30 19:25:57,873 - DEBUG - No configured endpoint found.
+2024-04-30 19:25:57,877 - DEBUG - Setting s3 timeout as (60, 60)
+2024-04-30 19:25:57,886 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\_retry.json
+2024-04-30 19:25:57,887 - DEBUG - Registering retry handlers for service: s3
+2024-04-30 19:25:57,888 - DEBUG - Registering S3 region redirector handler
+2024-04-30 19:25:57,888 - DEBUG - Registering S3Express Identity Resolver
+2024-04-30 19:25:57,889 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2024-04-30 19:25:57,890 - DEBUG - Using default client. pid: 10216, thread: 13644
+2024-04-30 19:25:57,891 - DEBUG - Acquiring 0
+2024-04-30 19:25:57,891 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000011A4C076DD0>}) about to wait for the following futures []
+2024-04-30 19:25:57,892 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000011A4C076DD0>}) done waiting for dependent futures
+2024-04-30 19:25:57,892 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000011A4C076DD0>}) with kwargs {'client': <botocore.client.S3 object at 0x0000011A4BD0F400>, 'config': <boto3.s3.transfer.TransferConfig object at 0x0000011A4BD0F370>, 'osutil': <s3transfer.utils.OSUtils object at 0x0000011A4C0761D0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x0000011A4C076410>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x0000011A4C076DD0>}
+2024-04-30 19:25:57,893 - DEBUG - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x0000011A4C076410> for transfer request: 0.
+2024-04-30 19:25:57,893 - DEBUG - Acquiring 0
+2024-04-30 19:25:57,894 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) about to wait for the following futures []
+2024-04-30 19:25:57,894 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) done waiting for dependent futures
+2024-04-30 19:25:57,894 - DEBUG - Executing task PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x0000011A4BD0F400>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x0000011A4C077340>, 'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}
+2024-04-30 19:25:57,895 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x0000011A49FF5480>
+2024-04-30 19:25:57,895 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x0000011A49FF48B0>
+2024-04-30 19:25:57,896 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x0000011A49FF5D80>
+2024-04-30 19:25:57,896 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x0000011A49FF4820>
+2024-04-30 19:25:57,896 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x0000011A49FF65F0>
+2024-04-30 19:25:57,896 - DEBUG - Releasing acquire 0/None
+2024-04-30 19:25:57,896 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x0000011A4C0760E0>>
+2024-04-30 19:25:57,896 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000011A4C076140>>
+2024-04-30 19:25:57,896 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x0000011A49FF4670>
+2024-04-30 19:25:57,898 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x0000011A49FF67A0>
+2024-04-30 19:25:57,898 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000011A4C0760E0>>
+2024-04-30 19:25:57,898 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pygame2', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'game.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-04-30 19:25:57,899 - DEBUG - Endpoint provider result: https://pygame2.s3.amazonaws.com
+2024-04-30 19:25:57,899 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-04-30 19:25:57,900 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-04-30 19:25:57,900 - DEBUG - Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x0000011A49E42D40>
+2024-04-30 19:25:57,917 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x0000011A49FF4B80>
+2024-04-30 19:25:57,917 - DEBUG - Adding expect 100 continue header to request.
+2024-04-30 19:25:57,918 - DEBUG - Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x0000011A4C076140>>
+2024-04-30 19:25:57,918 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x0000011A49FF4310>
+2024-04-30 19:25:57,918 - DEBUG - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x0000011A49FF5EA0>
+2024-04-30 19:25:57,918 - DEBUG - Making request for OperationModel(name=PutObject) with params: {'url_path': '/game.txt', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.44 md/Botocore#1.34.44 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.44', 'Content-MD5': 'MU8y5ArAq+otfEqtGv2Cfg==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x0000011A4C077340>, 'auth_path': '/pygame2/game.txt', 'url': 'https://pygame2.s3.amazonaws.com/game.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000011A4BDFEB90>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'pygame2', 'params': {'Bucket': 'pygame2', 'Key': 'game.txt', 'Body': <s3transfer.utils.ReadFileChunk object at 0x0000011A4C077340>}}, 'S3Express': {'bucket_name': 'pygame2'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-04-30 19:25:57,918 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x0000011A4BDCD750>
+2024-04-30 19:25:57,919 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000011A4BD0F280>>
+2024-04-30 19:25:57,919 - DEBUG - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000011A38526DA0>>
+2024-04-30 19:25:57,919 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x0000011A49FF4550>
+2024-04-30 19:25:57,919 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x0000011A49FF6710>
+2024-04-30 19:25:57,919 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000011A4C076140>>
+2024-04-30 19:25:57,919 - DEBUG - Calculating signature using v4 auth.
+2024-04-30 19:25:57,919 - DEBUG - CanonicalRequest:
+PUT
+/game.txt
+
+content-md5:MU8y5ArAq+otfEqtGv2Cfg==
+host:pygame2.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240501T022557Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2024-04-30 19:25:57,921 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240501T022557Z
+20240501/us-east-1/s3/aws4_request
+d722423e8915f7147ce19d55b86aa88e15f69aee39f0fed545dc1616ee04cadc
+2024-04-30 19:25:57,922 - DEBUG - Signature:
+befb3726322576c912aac16e853b31e75ed4a11d1063dcb818626d218d3cd372
+2024-04-30 19:25:57,923 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x0000011A4BDCD7E0>
+2024-04-30 19:25:57,923 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x0000011A49FF6560>
+2024-04-30 19:25:57,923 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pygame2.s3.amazonaws.com/game.txt, headers={'User-Agent': b'Boto3/1.34.44 md/Botocore#1.34.44 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.44', 'Content-MD5': b'MU8y5ArAq+otfEqtGv2Cfg==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240501T022557Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAV3N7ULSXXGLBNPCR/20240501/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=befb3726322576c912aac16e853b31e75ed4a11d1063dcb818626d218d3cd372', 'amz-sdk-invocation-id': b'90392b5d-800a-4ee1-b636-3f7edf3ec012', 'amz-sdk-request': b'attempt=1', 'Content-Length': '5686'}>
+2024-04-30 19:25:57,928 - DEBUG - Certificate path: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\certifi\cacert.pem
+2024-04-30 19:25:57,930 - DEBUG - Starting new HTTPS connection (1): pygame2.s3.amazonaws.com:443
+2024-04-30 19:25:58,339 - DEBUG - Waiting for 100 Continue response.
+2024-04-30 19:25:58,433 - DEBUG - Received a non 100 Continue response from the server, NOT sending request body.
+2024-04-30 19:25:58,433 - DEBUG - send() called, but response already received. Not sending data.
+2024-04-30 19:25:58,444 - DEBUG - https://pygame2.s3.amazonaws.com:443 "PUT /game.txt HTTP/1.1" 307 None
+2024-04-30 19:25:58,446 - DEBUG - Response headers: {'x-amz-bucket-region': 'ap-south-1', 'x-amz-request-id': 'RYQYC19201ET3C62', 'x-amz-id-2': 'tCNDdD5zErf1uipXQUKUpS38+iqHY0Xj9cbCCFoaHkkVJcxyJdM3uNkaGbIgsbDZN8z1Nq8f+3I=', 'Location': 'https://pygame2.s3.ap-south-1.amazonaws.com/game.txt', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Wed, 01 May 2024 02:25:57 GMT', 'Server': 'AmazonS3', 'Connection': 'close'}
+2024-04-30 19:25:58,446 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>TemporaryRedirect</Code><Message>Please re-send this request to the specified temporary endpoint. Continue to use the original request endpoint for future requests.</Message><Endpoint>pygame2.s3.ap-south-1.amazonaws.com</Endpoint><Bucket>pygame2</Bucket><RequestId>RYQYC19201ET3C62</RequestId><HostId>tCNDdD5zErf1uipXQUKUpS38+iqHY0Xj9cbCCFoaHkkVJcxyJdM3uNkaGbIgsbDZN8z1Nq8f+3I=</HostId></Error>'
+2024-04-30 19:25:58,452 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x0000011A4C076020>
+2024-04-30 19:25:58,452 - DEBUG - No retry needed.
+2024-04-30 19:25:58,452 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000011A4C0760E0>>
+2024-04-30 19:25:58,452 - DEBUG - S3 client configured for region us-east-1 but the bucket pygame2 is in region ap-south-1; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2024-04-30 19:25:58,453 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x0000011A49FF67A0>
+2024-04-30 19:25:58,453 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x0000011A4C0760E0>>
+2024-04-30 19:25:58,453 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pygame2', 'Region': 'ap-south-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'game.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-04-30 19:25:58,454 - DEBUG - Endpoint provider result: https://pygame2.s3.ap-south-1.amazonaws.com
+2024-04-30 19:25:58,454 - DEBUG - Updating URI from https://pygame2.s3.amazonaws.com/game.txt to https://pygame2.s3.ap-south-1.amazonaws.com/game.txt
+2024-04-30 19:25:58,454 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-04-30 19:25:58,454 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-04-30 19:25:58,454 - DEBUG - Response received to retry, sleeping for 0 seconds
+2024-04-30 19:25:58,460 - DEBUG - Rewinding stream: <s3transfer.utils.ReadFileChunk object at 0x0000011A4C077340>
+2024-04-30 19:25:58,460 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x0000011A4BDCD750>
+2024-04-30 19:25:58,460 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000011A4BD0F280>>
+2024-04-30 19:25:58,460 - DEBUG - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000011A38526DA0>>
+2024-04-30 19:25:58,461 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x0000011A49FF4550>
+2024-04-30 19:25:58,461 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x0000011A49FF6710>
+2024-04-30 19:25:58,461 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x0000011A4C076140>>
+2024-04-30 19:25:58,461 - DEBUG - Calculating signature using v4 auth.
+2024-04-30 19:25:58,461 - DEBUG - CanonicalRequest:
+PUT
+/game.txt
+
+content-md5:MU8y5ArAq+otfEqtGv2Cfg==
+host:pygame2.s3.ap-south-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240501T022558Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2024-04-30 19:25:58,461 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240501T022558Z
+20240501/ap-south-1/s3/aws4_request
+6884cfec84e36ce8cb3421e2395387b253aa6cdaa758d71099488fc1ca1e1f3c
+2024-04-30 19:25:58,462 - DEBUG - Signature:
+f4db59d7d6f5f44610ac298cf9501b42bf1da20408c7c2c1b2d4bcac0a3b91e5
+2024-04-30 19:25:58,462 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x0000011A4BDCD7E0>
+2024-04-30 19:25:58,462 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x0000011A49FF6560>
+2024-04-30 19:25:58,462 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pygame2.s3.ap-south-1.amazonaws.com/game.txt, headers={'User-Agent': b'Boto3/1.34.44 md/Botocore#1.34.44 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.44', 'Content-MD5': b'MU8y5ArAq+otfEqtGv2Cfg==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240501T022558Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAV3N7ULSXXGLBNPCR/20240501/ap-south-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=f4db59d7d6f5f44610ac298cf9501b42bf1da20408c7c2c1b2d4bcac0a3b91e5', 'amz-sdk-invocation-id': b'90392b5d-800a-4ee1-b636-3f7edf3ec012', 'amz-sdk-request': b'ttl=20240501T022657Z; attempt=2; max=5', 'Content-Length': '5686'}>
+2024-04-30 19:25:58,463 - DEBUG - Certificate path: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\certifi\cacert.pem
+2024-04-30 19:25:58,463 - DEBUG - Starting new HTTPS connection (1): pygame2.s3.ap-south-1.amazonaws.com:443
+2024-04-30 19:25:59,673 - DEBUG - Waiting for 100 Continue response.
+2024-04-30 19:25:59,981 - DEBUG - 100 Continue response seen, now sending request body.
+2024-04-30 19:26:00,334 - DEBUG - https://pygame2.s3.ap-south-1.amazonaws.com:443 "PUT /game.txt HTTP/1.1" 200 0
+2024-04-30 19:26:00,344 - DEBUG - Response headers: {'x-amz-id-2': 'rKsHXqr5ACxj8gRFmlseFnhKjhU7Dn1bvxqHAHsZgTa6oEX/KMMuNCkvYGslv/N430BkZnCU5tKNsXzyo5zntw==', 'x-amz-request-id': 'Q7J6XPH59MBE36GF', 'Date': 'Wed, 01 May 2024 02:26:00 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"314f32e40ac0abea2d7c4aad1afd827e"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2024-04-30 19:26:00,345 - DEBUG - Response body:
+b''
+2024-04-30 19:26:00,346 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x0000011A4C076020>
+2024-04-30 19:26:00,346 - DEBUG - No retry needed.
+2024-04-30 19:26:00,346 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x0000011A4C0760E0>>
+2024-04-30 19:26:00,347 - DEBUG - S3 request was previously redirected, not redirecting.
+2024-04-30 19:26:00,348 - DEBUG - Releasing acquire 0/None
+2024-04-30 22:53:10,003 - DEBUG - Using proactor: IocpProactor
+2024-04-30 22:53:19,707 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2024-04-30 22:53:19,710 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2024-04-30 22:53:19,711 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2024-04-30 22:53:19,713 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2024-04-30 22:53:19,714 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2024-04-30 22:53:19,715 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2024-04-30 22:53:19,715 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2024-04-30 22:53:19,719 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2024-04-30 22:53:19,719 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2024-04-30 22:53:19,720 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2024-04-30 22:53:19,720 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2024-04-30 22:53:19,726 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\endpoints.json
+2024-04-30 22:53:19,763 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\sdk-default-configuration.json
+2024-04-30 22:53:19,763 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001987A2FEE60>
+2024-04-30 22:53:19,904 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2024-04-30 22:53:20,031 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2024-04-30 22:53:20,039 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\partitions.json
+2024-04-30 22:53:20,043 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001987A2457E0>
+2024-04-30 22:53:20,043 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001987A398040>
+2024-04-30 22:53:20,124 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001987A2455A0>
+2024-04-30 22:53:20,124 - DEBUG - Looking for endpoint for s3 via: environment_service
+2024-04-30 22:53:20,125 - DEBUG - Looking for endpoint for s3 via: environment_global
+2024-04-30 22:53:20,125 - DEBUG - Looking for endpoint for s3 via: config_service
+2024-04-30 22:53:20,125 - DEBUG - Looking for endpoint for s3 via: config_global
+2024-04-30 22:53:20,125 - DEBUG - No configured endpoint found.
+2024-04-30 22:53:20,129 - DEBUG - Setting s3 timeout as (60, 60)
+2024-04-30 22:53:20,139 - DEBUG - Loading JSON file: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\botocore\data\_retry.json
+2024-04-30 22:53:20,140 - DEBUG - Registering retry handlers for service: s3
+2024-04-30 22:53:20,140 - DEBUG - Registering S3 region redirector handler
+2024-04-30 22:53:20,141 - DEBUG - Registering S3Express Identity Resolver
+2024-04-30 22:53:20,142 - DEBUG - Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+2024-04-30 22:53:20,142 - DEBUG - Using default client. pid: 11820, thread: 11252
+2024-04-30 22:53:20,143 - DEBUG - Acquiring 0
+2024-04-30 22:53:20,145 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001987C3AAF20>}) about to wait for the following futures []
+2024-04-30 22:53:20,145 - DEBUG - UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001987C3AAF20>}) done waiting for dependent futures
+2024-04-30 22:53:20,146 - DEBUG - Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001987C3AAF20>}) with kwargs {'client': <botocore.client.S3 object at 0x000001987C043550>, 'config': <boto3.s3.transfer.TransferConfig object at 0x000001987C0434C0>, 'osutil': <s3transfer.utils.OSUtils object at 0x000001987C3AA320>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x000001987C3AA560>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001987C3AAF20>}
+2024-04-30 22:53:20,146 - DEBUG - Submitting task PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x000001987C3AA560> for transfer request: 0.
+2024-04-30 22:53:20,146 - DEBUG - Acquiring 0
+2024-04-30 22:53:20,152 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) about to wait for the following futures []
+2024-04-30 22:53:20,152 - DEBUG - Releasing acquire 0/None
+2024-04-30 22:53:20,152 - DEBUG - PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) done waiting for dependent futures
+2024-04-30 22:53:20,152 - DEBUG - Executing task PutObjectTask(transfer_id=0, {'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000001987C043550>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x000001987C3AB490>, 'bucket': 'pygame2', 'key': 'game.txt', 'extra_args': {}}
+2024-04-30 22:53:20,153 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x000001987A319510>
+2024-04-30 22:53:20,154 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x000001987A318940>
+2024-04-30 22:53:20,154 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x000001987A319E10>
+2024-04-30 22:53:20,154 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x000001987A3188B0>
+2024-04-30 22:53:20,154 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001987A31A680>
+2024-04-30 22:53:20,154 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001987C3AA230>>
+2024-04-30 22:53:20,155 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001987C3AA290>>
+2024-04-30 22:53:20,155 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x000001987A318700>
+2024-04-30 22:53:20,155 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001987A31A830>
+2024-04-30 22:53:20,155 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001987C3AA230>>
+2024-04-30 22:53:20,156 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pygame2', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'game.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-04-30 22:53:20,158 - DEBUG - Endpoint provider result: https://pygame2.s3.amazonaws.com
+2024-04-30 22:53:20,158 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-04-30 22:53:20,159 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-04-30 22:53:20,160 - DEBUG - Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x000001987A172DD0>
+2024-04-30 22:53:20,178 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x000001987A318C10>
+2024-04-30 22:53:20,178 - DEBUG - Adding expect 100 continue header to request.
+2024-04-30 22:53:20,178 - DEBUG - Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000001987C3AA290>>
+2024-04-30 22:53:20,178 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x000001987A3183A0>
+2024-04-30 22:53:20,179 - DEBUG - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x000001987A319F30>
+2024-04-30 22:53:20,179 - DEBUG - Making request for OperationModel(name=PutObject) with params: {'url_path': '/game.txt', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.44 md/Botocore#1.34.44 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.44', 'Content-MD5': 'DIFFNIXRNNiIqovmy1Mr5w==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x000001987C3AB490>, 'auth_path': '/pygame2/game.txt', 'url': 'https://pygame2.s3.amazonaws.com/game.txt', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001987C342CE0>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'pygame2', 'params': {'Bucket': 'pygame2', 'Key': 'game.txt', 'Body': <s3transfer.utils.ReadFileChunk object at 0x000001987C3AB490>}}, 'S3Express': {'bucket_name': 'pygame2'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+2024-04-30 22:53:20,180 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x000001987C1017E0>
+2024-04-30 22:53:20,180 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001987C0433D0>>
+2024-04-30 22:53:20,181 - DEBUG - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000019868896DA0>>
+2024-04-30 22:53:20,181 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x000001987A3185E0>
+2024-04-30 22:53:20,182 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x000001987A31A7A0>
+2024-04-30 22:53:20,182 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001987C3AA290>>
+2024-04-30 22:53:20,182 - DEBUG - Calculating signature using v4 auth.
+2024-04-30 22:53:20,182 - DEBUG - CanonicalRequest:
+PUT
+/game.txt
+
+content-md5:DIFFNIXRNNiIqovmy1Mr5w==
+host:pygame2.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240501T055320Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2024-04-30 22:53:20,182 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240501T055320Z
+20240501/us-east-1/s3/aws4_request
+08fefbc49b559cb31d2c9b95612999fe14460e7fb9ac6d03678b2dd8e7121020
+2024-04-30 22:53:20,182 - DEBUG - Signature:
+be8b8fe68511d4a3da89c10a4bc395cc5c4d9045c4425c7d6c8c91dd78b80207
+2024-04-30 22:53:20,183 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x000001987C101870>
+2024-04-30 22:53:20,183 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x000001987A31A5F0>
+2024-04-30 22:53:20,184 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pygame2.s3.amazonaws.com/game.txt, headers={'User-Agent': b'Boto3/1.34.44 md/Botocore#1.34.44 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.44', 'Content-MD5': b'DIFFNIXRNNiIqovmy1Mr5w==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240501T055320Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAV3N7ULSXXGLBNPCR/20240501/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=be8b8fe68511d4a3da89c10a4bc395cc5c4d9045c4425c7d6c8c91dd78b80207', 'amz-sdk-invocation-id': b'68899f30-2ed4-40a6-a613-63314bb7fdab', 'amz-sdk-request': b'attempt=1', 'Content-Length': '27402'}>
+2024-04-30 22:53:20,187 - DEBUG - Certificate path: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\certifi\cacert.pem
+2024-04-30 22:53:20,188 - DEBUG - Starting new HTTPS connection (1): pygame2.s3.amazonaws.com:443
+2024-04-30 22:53:21,246 - DEBUG - Waiting for 100 Continue response.
+2024-04-30 22:53:21,662 - DEBUG - Received a non 100 Continue response from the server, NOT sending request body.
+2024-04-30 22:53:21,663 - DEBUG - send() called, but response already received. Not sending data.
+2024-04-30 22:53:21,665 - DEBUG - https://pygame2.s3.amazonaws.com:443 "PUT /game.txt HTTP/1.1" 400 None
+2024-04-30 22:53:21,667 - DEBUG - Response headers: {'x-amz-request-id': 'Z3GFN2SWGVACEF3N', 'x-amz-id-2': 'hmA8YlJZT+KYu5ixGFaXigBGnQRwdPYPC3y/c8zoMVtqCcigjQdWO2+QH1Ik4opSCGBh2iQbTKw=', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Wed, 01 May 2024 05:53:20 GMT', 'Server': 'AmazonS3', 'Connection': 'close'}
+2024-04-30 22:53:21,667 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>AuthorizationHeaderMalformed</Code><Message>The authorization header is malformed; the region \'us-east-1\' is wrong; expecting \'ap-south-1\'</Message><Region>ap-south-1</Region><RequestId>Z3GFN2SWGVACEF3N</RequestId><HostId>hmA8YlJZT+KYu5ixGFaXigBGnQRwdPYPC3y/c8zoMVtqCcigjQdWO2+QH1Ik4opSCGBh2iQbTKw=</HostId></Error>'
+2024-04-30 22:53:21,676 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001987C3AA170>
+2024-04-30 22:53:21,677 - DEBUG - No retry needed.
+2024-04-30 22:53:21,677 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001987C3AA230>>
+2024-04-30 22:53:21,677 - DEBUG - S3 client configured for region us-east-1 but the bucket pygame2 is in region ap-south-1; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2024-04-30 22:53:21,677 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001987A31A830>
+2024-04-30 22:53:21,677 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001987C3AA230>>
+2024-04-30 22:53:21,677 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'pygame2', 'Region': 'ap-south-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'game.txt', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2024-04-30 22:53:21,678 - DEBUG - Endpoint provider result: https://pygame2.s3.ap-south-1.amazonaws.com
+2024-04-30 22:53:21,679 - DEBUG - Updating URI from https://pygame2.s3.amazonaws.com/game.txt to https://pygame2.s3.ap-south-1.amazonaws.com/game.txt
+2024-04-30 22:53:21,679 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2024-04-30 22:53:21,679 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2024-04-30 22:53:21,679 - DEBUG - Response received to retry, sleeping for 0 seconds
+2024-04-30 22:53:21,695 - DEBUG - Rewinding stream: <s3transfer.utils.ReadFileChunk object at 0x000001987C3AB490>
+2024-04-30 22:53:21,696 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x000001987C1017E0>
+2024-04-30 22:53:21,696 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001987C0433D0>>
+2024-04-30 22:53:21,696 - DEBUG - Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000019868896DA0>>
+2024-04-30 22:53:21,696 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x000001987A3185E0>
+2024-04-30 22:53:21,696 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x000001987A31A7A0>
+2024-04-30 22:53:21,696 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000001987C3AA290>>
+2024-04-30 22:53:21,697 - DEBUG - Calculating signature using v4 auth.
+2024-04-30 22:53:21,697 - DEBUG - CanonicalRequest:
+PUT
+/game.txt
+
+content-md5:DIFFNIXRNNiIqovmy1Mr5w==
+host:pygame2.s3.ap-south-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240501T055321Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2024-04-30 22:53:21,697 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20240501T055321Z
+20240501/ap-south-1/s3/aws4_request
+c9eb6b20201a187df44e7ce33eac0c982ccfeba260d6ac091bc22144deac4f53
+2024-04-30 22:53:21,697 - DEBUG - Signature:
+4a29cb4824ddafc8db27783651305de408cb62d3e46b3b8f5b32e859c7a7ca5a
+2024-04-30 22:53:21,697 - DEBUG - Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x000001987C101870>
+2024-04-30 22:53:21,697 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x000001987A31A5F0>
+2024-04-30 22:53:21,698 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://pygame2.s3.ap-south-1.amazonaws.com/game.txt, headers={'User-Agent': b'Boto3/1.34.44 md/Botocore#1.34.44 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.11 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.44', 'Content-MD5': b'DIFFNIXRNNiIqovmy1Mr5w==', 'Expect': b'100-continue', 'X-Amz-Date': b'20240501T055321Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAV3N7ULSXXGLBNPCR/20240501/ap-south-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=4a29cb4824ddafc8db27783651305de408cb62d3e46b3b8f5b32e859c7a7ca5a', 'amz-sdk-invocation-id': b'68899f30-2ed4-40a6-a613-63314bb7fdab', 'amz-sdk-request': b'ttl=20240501T055420Z; attempt=2; max=5', 'Content-Length': '27402'}>
+2024-04-30 22:53:21,698 - DEBUG - Certificate path: C:\Users\jayan\AppData\Local\Programs\Python\Python310\lib\site-packages\certifi\cacert.pem
+2024-04-30 22:53:21,698 - DEBUG - Starting new HTTPS connection (1): pygame2.s3.ap-south-1.amazonaws.com:443
+2024-04-30 22:53:22,754 - DEBUG - Waiting for 100 Continue response.
+2024-04-30 22:53:23,265 - DEBUG - 100 Continue response seen, now sending request body.
+2024-04-30 22:53:24,087 - DEBUG - https://pygame2.s3.ap-south-1.amazonaws.com:443 "PUT /game.txt HTTP/1.1" 200 0
+2024-04-30 22:53:24,088 - DEBUG - Response headers: {'x-amz-id-2': 'mXM25nsraszBWzCT4gE0FT4oucSnx++nNmamJhgdkM0Z8/9cqgs51YpZeCX+/gSE3CVZY3/LzAU=', 'x-amz-request-id': 'JBXC74D9V3WJABP7', 'Date': 'Wed, 01 May 2024 05:53:23 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"0c81453485d134d888aa8be6cb532be7"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2024-04-30 22:53:24,088 - DEBUG - Response body:
+b''
+2024-04-30 22:53:24,089 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001987C3AA170>
+2024-04-30 22:53:24,089 - DEBUG - No retry needed.
+2024-04-30 22:53:24,089 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001987C3AA230>>
+2024-04-30 22:53:24,089 - DEBUG - S3 request was previously redirected, not redirecting.
+2024-04-30 22:53:24,090 - DEBUG - Releasing acquire 0/None
